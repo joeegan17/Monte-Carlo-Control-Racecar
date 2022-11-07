@@ -1,0 +1,18 @@
+I wrote this code in Python 3.10.6 in VSCode with a Jupyter notebooks layout.
+
+packages are:
+numpy
+pandas
+matplotlib.pyplot
+seaborn
+sys (although you probably don't need it unless you want to widen the let_me_take_the_wheel() printouts)
+
+
+There are two dependent txt files for the two tracks that I will include in my submission
+
+Two classes Track and Car
+
+4 cars per track = 8 cars total
+
+With the currently saved configurations in the file, the cars all take >5 minutes to run, some nearly 10 minutes. 
+if you want to test the human driving version, it's  .let_me_take_the_wheel(l_track.assign_starting_point(), l_track)
